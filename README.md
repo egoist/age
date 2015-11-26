@@ -1,6 +1,6 @@
 # age
 
-Print your age in terminal
+![preview](http://ww4.sinaimg.cn/large/a15b4afegw1eyejtd4p2fg20bn01zwel.gif)
 
 ## Usage
 
