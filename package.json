@@ -1,0 +1,31 @@
+{
+  "name": "age-cli",
+  "version": "1.0.0",
+  "description": "get my age in cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "age": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egoist/age.git"
+  },
+  "author": "EGOIST",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/egoist/age/issues"
+  },
+  "homepage": "https://github.com/egoist/age#readme",
+  "dependencies": {
+    "colorful": "^2.1.0",
+    "inquirer": "^0.11.0",
+    "minimist": "^1.2.0",
+    "myconf": "0.0.21"
+  },
+  "engine": {
+    "node": ">= 4"
+  }
+}
