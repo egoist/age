@@ -32,7 +32,7 @@ module.exports = (argv) => {
       const now = new Date().getTime()
       const birth = new Date(data.birthday).getTime()
       const age = (now - birth) / 1000 / 86400 / 365
-      process.stdout.write('\r\x1b[36m\033[m Time flies, you\'ve been ' + age.toFixed(9).cyan + ' years old')
+      process.stdout.write('\r\x1b[36m\033[mTime flies, you\'ve been ' + age.toFixed(9).cyan + ' years old')
     }, 100)
   }
 
